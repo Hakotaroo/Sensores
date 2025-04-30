@@ -6,7 +6,7 @@ services:
     plan: free
     envVars:
       - key: MONGO_URI
-        value: mmongodb+srv://Hakotaro:<db_password>@cluster1.ma57qj1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1
+        value: mmongodb+srv://Hakotaro:<thekid123>@cluster1.ma57qj1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1
     region: oregon
     buildCommand: pip install -r requirements.txt
     startCommand: python app.py
